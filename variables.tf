@@ -85,7 +85,7 @@ variable "efs_access_permissions" {
   type        = string
 }
 
-variable "efs_file_system_policy" {
+variable "create_efs_policy" {
   description = "Whether wants to create efs policy"
   type        = bool
   default     = false
